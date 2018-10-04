@@ -1,0 +1,28 @@
+
+/* jumbotron */
+.jumbotron {
+    background-image: url("../images/simpsons_characters_big_image.jpeg");
+    background-size: cover;
+    height: 700px;
+}
+
+/* game container */
+.game-main-container {
+    /* official simpson's yellow */
+    background: #ffd90f;
+    margin-top: -35px;
+    height: 500px;
+}
+
+.title-div {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.instructions {
+    padding-top: 30px;
+}
+
+.game-div {
+    padding-top: 50px;
+}
