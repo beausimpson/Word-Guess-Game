@@ -1,12 +1,18 @@
+/* body */
+body {
+    color: #2A2A57;
+}
 
 /* jumbotron */
+/* classes */
 .jumbotron {
     background-image: url("../images/simpsons_characters_big_image.jpeg");
     background-size: cover;
-    height: 700px;
+    height: 400px;
 }
 
 /* game container */
+/* classes */
 .game-main-container {
     /* official simpson's yellow */
     background: #ffd90f;
@@ -15,7 +21,6 @@
 }
 
 .title-div {
-    padding-left: 50px;
     padding-top: 30px;
 }
 
@@ -25,4 +30,24 @@
 
 .game-div {
     padding-top: 50px;
+    font-size: 24px;
+}
+
+/* ids */
+#blue_div {
+    padding: 5px;
+    background: #2A2A57;
+}
+
+#directions-text {
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+#title_img {
+    padding-left: 50px;
+}
+
+#name_img {
+    padding-left: 15px;
 }

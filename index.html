@@ -22,21 +22,25 @@
     <div class="container-fluid game-main-container">
         <div class="row">
             <div class="col-md-12">
+                <div id="blue_div"></div>
                 <div class="title-div">
-                    <img id="title"" src=" assets/images/simpsons_logo.png"/> <img src="assets/images/word_guess.png" ?>
-                    <p id="directions-text" class="lead instructions">Press Any Key to Start ...</p>
+                    <img id="title_img" class="img-fluid" src=" assets/images/simpsons_logo.png">
+                    <img id="name_img" class="img-fluid" src="assets/images/word_guess.png">
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-3 game-div">
+            <div class="col-md-4">
+                <p id="directions-text" class="lead">Press Any Key to Start ...</p>
+            </div>
+            <!-- javascript executes in game-div -->
+            <div class="col-md-4 game-div">
                 <p id="dash-array"></p>
                 <p id="wrong-letters"></p>
                 <p id="guesses-left"></p>
+                <p id="game-result"></p>
             </div>
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
+            <div class="col-md-4"></div>
         </div>
     </div>
 
